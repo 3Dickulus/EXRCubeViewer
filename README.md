@@ -72,6 +72,8 @@ select "OK"
 
 this will generate 256 images in a folder named TestCube_Files/images
 
+![slice-test 256x256](https://user-images.githubusercontent.com/4978723/123578379-8e6e8b00-d78a-11eb-9e47-a75b8a94b0cf.gif)
+
 These images can be used to create a multipart file with the OpenEXR tool called **exrmultipart**
 
     Usage: exrmultipart -combine -i input.exr[:partnum][::partname] [input2.exr[:partnum]][::partname] [...] -o outfile.exr [options]
@@ -86,3 +88,9 @@ I use a small bash script called mkcombined.sh to get the job done... it lives i
     # creates a file named myimgfiles-combined-256x256x256.exr that contains all exr files with basename
     
     bin/exrmultipart -combine -i `ls $1.*.exr` -o $1-combined-$2.exr `
+
+After generating the EXR cube file you can load it with EXRCubeViewer to see something like this ...
+
+![EXRCubeViewer-test](https://user-images.githubusercontent.com/4978723/123578172-199b5100-d78a-11eb-9b3d-d1e8046b93a3.gif)
+
+once loaded in EXRCubeViewer you can save the voxel field as a wavefront .obj file or a pointcloud .pcd file
