@@ -4,7 +4,13 @@ A program to view EXR multipart format files of cubic dimensions X==Y==Z
 A Fragmentarium support tool brought to you by Digilantism ;)
 
 ## Compiling
-install QGLViewer dev package and create a build folder in EXRCubeViewer folder
+
+install and setup a C++ dev environment
+install OpenEXR dev package
+install Qt dev package
+install QGLViewer dev package
+
+create a build folder in EXRCubeViewer folder
 
 `  cd EXRCubeViewer
   mkdir build`
