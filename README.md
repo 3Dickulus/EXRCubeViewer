@@ -5,10 +5,10 @@ A Fragmentarium support tool brought to you by Digilantism ;)
 
 ## Compiling
 
-install and setup a C++ dev environment
-install OpenEXR dev package
-install Qt dev package
-install QGLViewer dev package
+    install and setup a C++ dev environment
+    install OpenEXR dev package
+    install Qt dev package
+    install QGLViewer dev package
 
 create a build folder in EXRCubeViewer folder
 
