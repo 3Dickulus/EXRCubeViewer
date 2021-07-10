@@ -43,7 +43,7 @@ There are only a few commands available via the "h" "l" and "s" keys
 
 ## Generating files for use with EXRCubeViewer
 
-copy the frag files to a folder of their own (only work on copies)
+copy the frag files, DE-Slicer.frag and slice-test.frag, to a folder of their own (only work on copies)
 
 run Fragmentarium-2.5.5
 
