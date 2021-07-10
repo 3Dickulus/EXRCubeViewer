@@ -61,7 +61,7 @@ set "Tile Width" to 256
 
 set "Tile Height" to 256
 
-set "Number of Subframes" to any number youis:done  like but for some fast results setting it to 1 (one) will do
+set "Number of Subframes" to any number you like but for some fast results setting it to 1 (one) will do
 
 select the "Animation" checkbox and set "Start Frame" and "End Frame" to 1 and 256 respectively.
 
