@@ -19,7 +19,7 @@ change directory to the build folder
 
 `  cd build`
 
-initialize with cmakeis:done 
+initialize with cmake
 
 `  cmake ..`
 
