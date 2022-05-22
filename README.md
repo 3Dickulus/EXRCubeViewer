@@ -45,7 +45,7 @@ There are only a few commands available via the "h" "l" and "s" keys
 
 copy the frag files, DE-Slicer.frag and slice-test.frag, to a folder of their own (only work on copies)
 
-run Fragmentarium-2.5.5
+run Fragmentarium program
 
 drag the copy of slice-test.frag onto the Fragmentarium window to load
 
