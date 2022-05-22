@@ -86,7 +86,7 @@ These images can be used to create a multipart file with the OpenEXR tool called
     or: exrmultipart -separate -i infile.exr -o outfileBaseName [options]
     or: exrmultipart -convert -i infile.exr -o outfile.exr [options]
     
-I use a small bash script called mkcombined.sh to get the job done... it lives in the Fragmentarium Misc folder, this script assumes that the bin folder is populated with tools from the OpenEXR package, you may have to edit to suite your needs
+I use a small bash script called mkcombined.sh to get the job done... it lives in the Fragmentarium Misc folder, this script assumes that the bin folder is populated with tools from the OpenEXR package, you may have to edit to suit your needs
 
     
     #!/bin/bash
