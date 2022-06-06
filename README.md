@@ -10,10 +10,13 @@ A Fragmentarium support tool brought to you by Digilantism ;)
     install Qt dev package
     install QGLViewer dev package
 
+make EXRCubeViewer the current directory
+
+`  cd EXRCubeViewer`
+
 create a build folder in EXRCubeViewer folder
 
-`  cd EXRCubeViewer
-  mkdir build`
+`  mkdir build`
 
 change directory to the build folder
 
