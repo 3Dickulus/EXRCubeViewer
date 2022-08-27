@@ -68,7 +68,7 @@ set "Number of Subframes" to any number you like but for some fast results setti
 
 select the "Animation" checkbox and set "Start Frame" and "End Frame" to 1 and 256 respectively.
 
-set the "Filename" to "TestCube.png"
+set the "Filename" to "TestCube.exr"
 
 unset "Add unique ID to filename"
 
